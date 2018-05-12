@@ -1,1 +1,1 @@
-# culfi - a web UI for Cloud Foundry
+# culfi - a web UI for Cloud Foundry for Developers
