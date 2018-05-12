@@ -1,13 +1,13 @@
 package main
 
 import (
-	"culfi/auth"
+	"culfi/apps"
 	"fmt"
 )
 
 func main() {
 	// TODO start server
 	// for now test code
-	content, _ := auth.ReadAuth()
-	fmt.Println(content)
+	apps, _ := apps.GetApps()
+	fmt.Println(apps)
 }
