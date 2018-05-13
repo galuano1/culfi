@@ -2,7 +2,7 @@ package main
 
 import (
 	"culfi/apps"
-	"culfi/apps/spaces"
+	"culfi/spaces"
 	"fmt"
 )
 
