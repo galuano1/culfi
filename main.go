@@ -2,12 +2,15 @@ package main
 
 import (
 	"culfi/apps"
+	"culfi/apps/spaces"
 	"fmt"
 )
 
 func main() {
 	// TODO start server
 	// for now test code
-	apps, _ := apps.GetApps()
+	spaces, _ := spaces.GetSpaces()
+	fmt.Println(spaces)
+	apps, _ := apps.GetApps(spaces[0].GUID)
 	fmt.Println(apps)
 }
